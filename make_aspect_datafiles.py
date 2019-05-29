@@ -7,8 +7,22 @@ import random
 from tensorflow.core.example import example_pb2
 import numpy as np
 
+#  Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+  
+#  Licensed under the Apache License, Version 2.0 (the "License").
+#  You may not use this file except in compliance with the License.
+#  A copy of the License is located at
+  
+#      http://www.apache.org/licenses/LICENSE-2.0
+  
+#  or in the "license" file accompanying this file. This file is distributed 
+#  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either 
+#  express or implied. See the License for the specific language governing 
+#  permissions and limitations under the License.
+  
+  
 # Code for reproducing the MA-News data set used in the paper
-# Inducing Structure for Aspect-based Summarization
+# Lea Frermann and Alexandre Klementiev (2019). Inducing Structure for Aspect-based Summarization.
 # 
 # The script is based in Abigail See's procedure for reproducing the CNN/DM data set
 # https://github.com/abisee/cnn-dailymail
@@ -29,6 +43,7 @@ import numpy as np
 #
 # The script will store the plain text stories (train / dev / test) in interleaved_stories_tokenized 
 # and the binaries in interleaved_stories_binary
+
 
 dm_single_close_quote = u'\u2019'
 dm_double_close_quote = u'\u201d'
